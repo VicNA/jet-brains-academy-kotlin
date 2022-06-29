@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17">
+      <module name="Zookeeper.Topics-Boolean_and_logical_operations-Declaring_boolean_variables.main" target="11" />
+      <module name="Zookeeper.Topics-Boolean_and_logical_operations-Go_to_the_store.main" target="11" />
+      <module name="Zookeeper.Topics-Boolean_and_logical_operations-Program_a_Boolean_function.main" target="11" />
+      <module name="Zookeeper.Topics-Boolean_and_logical_operations-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-Characters-A_capital_letter_or_a_digit.main" target="11" />
+      <module name="Zookeeper.Topics-Characters-Digits_or_not.main" target="11" />
+      <module name="Zookeeper.Topics-Characters-Sequence.main" target="11" />
+      <module name="Zookeeper.Topics-Characters-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-If_expression-Healthy_sleep.main" target="11" />
+      <module name="Zookeeper.Topics-If_expression-Leap_year.main" target="11" />
+      <module name="Zookeeper.Topics-If_expression-The_max_of_three_numbers.main" target="11" />
+      <module name="Zookeeper.Topics-If_expression-The_max_of_two_numbers_without_else-branch.main" target="11" />
+      <module name="Zookeeper.Topics-If_expression-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-Integers_in_action-Desks.main" target="11" />
+      <module name="Zookeeper.Topics-Integers_in_action-The_sum_of_digits.main" target="11" />
+      <module name="Zookeeper.Topics-Integers_in_action-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-Introduction_to_MutableList-Initializing_a_list.main" target="11" />
+      <module name="Zookeeper.Topics-Introduction_to_MutableList-Swap.main" target="11" />
+      <module name="Zookeeper.Topics-Introduction_to_MutableList-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-Invoking_functions-Lembas.main" target="11" />
+      <module name="Zookeeper.Topics-Invoking_functions-Square_root.main" target="11" />
+      <module name="Zookeeper.Topics-Invoking_functions-The_magic_of_println.main" target="11" />
+      <module name="Zookeeper.Topics-Invoking_functions-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-Reading_data_with_a_readln-Fix_the_input.main" target="11" />
+      <module name="Zookeeper.Topics-Reading_data_with_a_readln-How_to_learn_the_whole_Kotlin_per_one_task.main" target="11" />
+      <module name="Zookeeper.Topics-Reading_data_with_a_readln-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-Reading_data_with_a_readln-toDouble__.main" target="11" />
+      <module name="Zookeeper.Topics-Relational_operators-Are_the_numbers_different.main" target="11" />
+      <module name="Zookeeper.Topics-Relational_operators-Exactly_one_parameter_is_positive.main" target="11" />
+      <module name="Zookeeper.Topics-Relational_operators-Groundhogs_at_the_party.main" target="11" />
+      <module name="Zookeeper.Topics-Relational_operators-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-Repeating_blocks-Grades.main" target="11" />
+      <module name="Zookeeper.Topics-Repeating_blocks-Maximum_element_divisible_by_4.main" target="11" />
+      <module name="Zookeeper.Topics-Repeating_blocks-Size_of_parts.main" target="11" />
+      <module name="Zookeeper.Topics-Repeating_blocks-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-Standard_input-Four_numbers.main" target="11" />
+      <module name="Zookeeper.Topics-Standard_input-Read_and_print.main" target="11" />
+      <module name="Zookeeper.Topics-Standard_input-Successful_reading.main" target="11" />
+      <module name="Zookeeper.Topics-Standard_input-The_suitable_inputs.main" target="11" />
+      <module name="Zookeeper.Topics-Standard_input-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-Standard_output-Amount_on_the_account.main" target="11" />
+      <module name="Zookeeper.Topics-Standard_output-First,_second,_third.main" target="11" />
+      <module name="Zookeeper.Topics-Standard_output-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-Standard_output-Tic-Tac-Toe.main" target="11" />
+      <module name="Zookeeper.Topics-Standard_output-What_does_the_code_print.main" target="11" />
+      <module name="Zookeeper.Topics-Standard_output-What_does_the_program_print.main" target="11" />
+      <module name="Zookeeper.Topics-String_templates-Date_and_time_formatting.main" target="11" />
+      <module name="Zookeeper.Topics-String_templates-Repetitions_and_templates.main" target="11" />
+      <module name="Zookeeper.Topics-String_templates-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-The_classification_of_basic_types-Existing_types.main" target="11" />
+      <module name="Zookeeper.Topics-The_classification_of_basic_types-Max_values_of_integer_types.main" target="11" />
+      <module name="Zookeeper.Topics-The_classification_of_basic_types-Size,_min_and_max.main" target="11" />
+      <module name="Zookeeper.Topics-The_classification_of_basic_types-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-Type_conversion-Cutting_the_fraction.main" target="11" />
+      <module name="Zookeeper.Topics-Type_conversion-Lie_detector.main" target="11" />
+      <module name="Zookeeper.Topics-Type_conversion-Theory.main" target="11" />
+      <module name="Zookeeper.util.main" target="11" />
+      <module name="Zookeeper.Zookeeper-task-build-classes-kotlin.main" target="11" />
+      <module name="Zookeeper.Zookeeper-task-build-reports-tests.main" target="11" />
+      <module name="Zookeeper.Zookeeper-task-build-test-results.main" target="11" />
+      <module name="Zookeeper.Zookeeper-task-build-tmp.main" target="11" />
+      <module name="Zookeeper.Zookeeper-task.main" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
