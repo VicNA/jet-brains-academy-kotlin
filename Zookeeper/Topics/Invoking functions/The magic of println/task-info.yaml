@@ -1,11 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-- text: The value of <code>result</code> is <code>text</code>
-- text: The value of <code>result</code> is empty.
-- text: The value of <code>result</code> is Unit.
-- text: It does not work because the <code>println</code> function cannot produce
-    a result.
 files:
 - name: src/Main.kt
   visible: true

@@ -1,10 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-- text: Kotlin<br>1<br>K
-- text: '"Kotlin"<br>1<br>''K'''
-- text: '"Kotlin"<br>"1"<br>"K"'
-- text: '"Kotlin"<br>"1"<br>''K'''
 files:
 - name: src/Main.kt
   visible: true

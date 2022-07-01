@@ -58,6 +58,10 @@
       <module name="Zookeeper.Topics-Type_conversion-Cutting_the_fraction.main" target="11" />
       <module name="Zookeeper.Topics-Type_conversion-Lie_detector.main" target="11" />
       <module name="Zookeeper.Topics-Type_conversion-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-While_loops-The_sequence_1_2_2_3_3_3.main" target="11" />
+      <module name="Zookeeper.Topics-While_loops-The_sum_of_elements.main" target="11" />
+      <module name="Zookeeper.Topics-While_loops-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-While_loops-What_does_the_code_print.main" target="11" />
       <module name="Zookeeper.util.main" target="11" />
       <module name="Zookeeper.Zookeeper-task-build-classes-kotlin.main" target="11" />
       <module name="Zookeeper.Zookeeper-task-build-reports-tests.main" target="11" />

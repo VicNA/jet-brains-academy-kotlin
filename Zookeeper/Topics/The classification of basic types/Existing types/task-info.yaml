@@ -1,12 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: Character
-- text: Int
-- text: Char
-- text: Fraction
-- text: Double
-- text: Integer
+is_multiple_choice: false
 files:
 - name: src/Main.kt
   visible: true
