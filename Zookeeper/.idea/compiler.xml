@@ -10,6 +10,13 @@
       <module name="Zookeeper.Topics-Characters-Digits_or_not.main" target="11" />
       <module name="Zookeeper.Topics-Characters-Sequence.main" target="11" />
       <module name="Zookeeper.Topics-Characters-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-Equality-Equality.main" target="11" />
+      <module name="Zookeeper.Topics-Equality-How_to_compare.main" target="11" />
+      <module name="Zookeeper.Topics-Equality-Kings_of_Sweden.main" target="11" />
+      <module name="Zookeeper.Topics-Equality-Referential_equality.main" target="11" />
+      <module name="Zookeeper.Topics-Equality-The_same_object.main" target="11" />
+      <module name="Zookeeper.Topics-Equality-Theory.main" target="11" />
+      <module name="Zookeeper.Topics-Equality-True_captain.main" target="11" />
       <module name="Zookeeper.Topics-If_expression-Healthy_sleep.main" target="11" />
       <module name="Zookeeper.Topics-If_expression-Leap_year.main" target="11" />
       <module name="Zookeeper.Topics-If_expression-The_max_of_three_numbers.main" target="11" />

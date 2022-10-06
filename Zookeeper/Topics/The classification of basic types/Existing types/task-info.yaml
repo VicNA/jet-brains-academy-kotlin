@@ -1,5 +1,12 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+- text: Character
+- text: Int
+- text: Char
+- text: Fraction
+- text: Double
+- text: Integer
 files:
 - name: src/Main.kt
   visible: true
@@ -13,3 +20,4 @@ files:
 feedback_link: https://hyperskill.org/learn/step/4459#comment
 status: Solved
 record: -1
+local_check: false

@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/557366/additional_files.json
   is_template_based: true
   use_ide: true
-update_date: Thu, 30 Jun 2022 06:20:30 UTC
+update_date: Thu, 06 Oct 2022 12:24:44 UTC
 stages:
 - id: 975
   step: 14133
@@ -38,10 +38,10 @@ topics:
   1:
   - title: Units of information
     theory_id: 6865
-  - title: The classification of basic types
-    theory_id: 4455
   - title: Standard input
     theory_id: 4445
+  - title: The classification of basic types
+    theory_id: 4455
   - title: Type conversion
     theory_id: 4672
   - title: String basics
