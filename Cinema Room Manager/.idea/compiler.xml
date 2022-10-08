@@ -10,6 +10,39 @@
       <module name="Cinema_Room_Manager.Cinema_Room_Manager-task-build-test-results.main" target="11" />
       <module name="Cinema_Room_Manager.Cinema_Room_Manager-task-build-tmp.main" target="11" />
       <module name="Cinema_Room_Manager.Cinema_Room_Manager-task.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-For_loop_and_lists-Right_Rotation.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-For_loop_and_lists-Sum_of_numbers.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-For_loop_and_lists-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-For_loop_and_lists-Triples.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-For_loop_and_ranges-Check_the_order.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-For_loop_and_ranges-Fizz_Buzz.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-For_loop_and_ranges-The_longest_sequence.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-For_loop_and_ranges-The_roots_of_equation.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-For_loop_and_ranges-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-If_expression-Find_the_output.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-If_expression-Healthy_sleep.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-If_expression-Leap_year.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-If_expression-Positive,_Negative_or_Zero.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-If_expression-The_max_of_three_numbers.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-If_expression-The_max_of_two_numbers_without_else-branch.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-If_expression-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Multi-dimensional_list-Cube_of_zeros.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Multi-dimensional_list-Kotlin_lists.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Multi-dimensional_list-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Ranges-At_least_one.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Ranges-Not_in_range.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Ranges-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Ranges-Within_both_ranges.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Standard_output-First,_second,_third.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Standard_output-Print_a_triangle.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Standard_output-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Standard_output-Tic-Tac-Toe.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Standard_output-What_does_the_code_print.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Standard_output-What_does_the_program_print.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Work_with_MutableLists-Adding_lists.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Work_with_MutableLists-Empty.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Work_with_MutableLists-Playing_with_numbers.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Work_with_MutableLists-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.util.main" target="11" />
     </bytecodeTargetLevel>
   </component>

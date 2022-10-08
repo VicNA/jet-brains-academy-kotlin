@@ -1,23 +1,16 @@
 package cinema
 
 fun main() {
-    val rows = 0..7
-    val seats = 1..8
+    println("Enter the number of rows:")
+    val rows = readln().toInt()
+    println("Enter the number of seats in each row:")
+    val seats = readln().toInt()
 
-    println("Cinema:")
-    for (i in rows) {
-        if (i == 0) {
-            print("  ")
-        } else {
-            print("$i ")
-        }
-        for (j in seats) {
-            if (i == 0) {
-                print("$j ")
-            } else {
-                print("S ")
-            }
-        }
-        println()
-    }
+    val allSeats = rows * seats
+    val income =
+            if (allSeats <= 60)
+                allSeats * 10
+            else
+                (rows / 2 * seats * 10) + (rows - rows / 2) * seats * 8
+    println("Total income:\n$$income")
 }
