@@ -10,6 +10,10 @@
       <module name="Cinema_Room_Manager.Cinema_Room_Manager-task-build-test-results.main" target="11" />
       <module name="Cinema_Room_Manager.Cinema_Room_Manager-task-build-tmp.main" target="11" />
       <module name="Cinema_Room_Manager.Cinema_Room_Manager-task.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Declaring_functions-Get_last_digit.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Declaring_functions-Right_equation.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Declaring_functions-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Declaring_functions-What_should_be_specified.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-For_loop_and_lists-Right_Rotation.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-For_loop_and_lists-Sum_of_numbers.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-For_loop_and_lists-Theory.main" target="11" />
@@ -39,6 +43,11 @@
       <module name="Cinema_Room_Manager.Topics-Standard_output-Tic-Tac-Toe.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Standard_output-What_does_the_code_print.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Standard_output-What_does_the_program_print.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-When_expression-Direction.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-When_expression-Floor-space_of_the_room.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-When_expression-String_processor.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-When_expression-The_army_of_units.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-When_expression-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Work_with_MutableLists-Adding_lists.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Work_with_MutableLists-Empty.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Work_with_MutableLists-Playing_with_numbers.main" target="11" />
