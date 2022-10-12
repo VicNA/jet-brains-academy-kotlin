@@ -14,6 +14,13 @@
       <module name="Cinema_Room_Manager.Topics-Declaring_functions-Right_equation.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Declaring_functions-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Declaring_functions-What_should_be_specified.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Floating-point_types-Distance.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Floating-point_types-Evaluate_an_expression.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Floating-point_types-Find_X.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Floating-point_types-Liquid_pressure.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Floating-point_types-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Floating-point_types-What_is_the_result.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Floating-point_types-What_is_the_result__1_.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-For_loop_and_lists-Right_Rotation.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-For_loop_and_lists-Sum_of_numbers.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-For_loop_and_lists-Theory.main" target="11" />
@@ -43,6 +50,18 @@
       <module name="Cinema_Room_Manager.Topics-Standard_output-Tic-Tac-Toe.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Standard_output-What_does_the_code_print.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Standard_output-What_does_the_program_print.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Taming_exceptions-Exception_into_a_variable.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Taming_exceptions-Handle_arithmetic_exception.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Taming_exceptions-Handle_string_exception.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Taming_exceptions-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-The_try-catch-finally_statement-Parting_words.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-The_try-catch-finally_statement-The_end.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-The_try-catch-finally_statement-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-The_try-catch_statement-Converter_to_Double.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-The_try-catch_statement-Correct_code.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-The_try-catch_statement-Correct_statements.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-The_try-catch_statement-Handling_strings.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-The_try-catch_statement-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-When_expression-Direction.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-When_expression-Floor-space_of_the_room.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-When_expression-String_processor.main" target="11" />
