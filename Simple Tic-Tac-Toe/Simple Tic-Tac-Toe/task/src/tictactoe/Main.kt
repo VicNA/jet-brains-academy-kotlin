@@ -2,48 +2,38 @@ package tictactoe
 
 fun main() {
     val str = readln()
-    val countX = str.count { it == 'X' }
-    val countO = str.count { it == 'O' }
-    val countEmpty = str.count { it == '_' }
-
-    val sb = StringBuilder()
-    var result = ""
-    var countWin = 0
-
-    if (countX - countO !in -1..1) {
-        result = "Impossible"
-    } else {
-        repeat(3) {
-            sb.append(str[it * 3]).append(str[it * 3 + 1]).append(str[it * 3 + 2])
-            sb.append(str[it]).append(str[it + 3]).append(str[it + 6])
-            if (it == 0) {
-                sb.append(str[it]).append(str[it + 4]).append(str[it + 8])
-            }
-            if (it == 2) {
-                sb.append(str[it]).append(str[it + 2]).append(str[it + 4])
-            }
-        }
-        for (s in sb.chunked(3)) {
-            if (s == "XXX") {
-                result = "X wins"
-                countWin++
-            }
-            if (s == "OOO") {
-                result = "O wins"
-                countWin++
-            }
-        }
-        if (countWin > 1) result = "Impossible"
-        if (countWin == 0 && countEmpty > 0) result = "Game not finished"
-        if (countWin == 0 && countEmpty == 0) result = "Draw"
-    }
-
-
-    println("-".repeat(str.length))
+    val grid = mutableListOf<MutableList<Char>>()
     for (s in str.chunked(3)) {
-        println("|${s.split("").joinToString(" ")}|")
+        val list = mutableListOf<Char>()
+        s.forEach { list += it }
+        grid += list
     }
-    println("-".repeat(str.length))
+    printGrid(grid)
 
-    println(result)
+    do {
+        val move = mutableListOf<Int>()
+        try {
+            readln().split(" ").map { move += it.toInt() - 1 }
+        } catch (e: NumberFormatException) {
+            println("You should enter numbers!")
+            continue
+        }
+        when {
+            move[0] !in 0..2 || move[1] !in 0..2 -> println("Coordinates should be from 1 to 3!")
+            grid[move[0]][move[1]] != '_' -> println("This cell is occupied! Choose another one!")
+            else -> {
+                grid[move[0]][move[1]] = 'X'
+                break
+            }
+        }
+    } while (true)
+
+    printGrid(grid)
+}
+
+fun printGrid(grid: MutableList<MutableList<Char>>) {
+    val rep = grid.sumOf { it.count() }
+    println("-".repeat(rep))
+    grid.forEach { println("| ${it.joinToString(" ")} |") }
+    println("-".repeat(rep))
 }
