@@ -2,6 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="17">
+      <module name="Simple Tic-Tac-Toe.Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task-build-classes-kotlin.main" target="11" />
+      <module name="Simple Tic-Tac-Toe.Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Simple Tic-Tac-Toe.Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task-build-generated-sources-headers-java.main" target="11" />
       <module name="Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task-build-classes-java.main" target="11" />
       <module name="Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task-build-classes-kotlin.main" target="11" />
       <module name="Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task-build-generated-sources-annotationProcessor-java.main" target="11" />
@@ -14,6 +17,12 @@
       <module name="Simple_Tic-Tac-Toe.Topics-Getting_substrings-Exchange.main" target="11" />
       <module name="Simple_Tic-Tac-Toe.Topics-Getting_substrings-Theory.main" target="11" />
       <module name="Simple_Tic-Tac-Toe.Topics-Getting_substrings-Void.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Jumps_and_returns-Correct_jumping.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Jumps_and_returns-First_digit.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Jumps_and_returns-Placement_of_ships.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Jumps_and_returns-Theory.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Jumps_and_returns-Unique_characters.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Jumps_and_returns-Whole_truth_about_continue.main" target="11" />
       <module name="Simple_Tic-Tac-Toe.Topics-Processing_strings-Double_characters.main" target="11" />
       <module name="Simple_Tic-Tac-Toe.Topics-Processing_strings-Parse_url.main" target="11" />
       <module name="Simple_Tic-Tac-Toe.Topics-Processing_strings-The_percentage_of_G_and_C_characters.main" target="11" />
