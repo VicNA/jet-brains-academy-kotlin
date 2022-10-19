@@ -4,7 +4,7 @@ fun main() {
     val grid = Array(3) { Array(3) { '_' }.toMutableList() }.toMutableList()
     printGrid(grid)
 
-    var end = false
+    var isEnd = false
     var step = 0
     do {
         val move = mutableListOf<Int>()
@@ -17,31 +17,57 @@ fun main() {
         when {
             move[0] !in 0..2 || move[1] !in 0..2 -> println("Coordinates should be from 1 to 3!")
             grid[move[0]][move[1]] != '_' -> println("This cell is occupied! Choose another one!")
-            else -> {
-                step++
-                grid[move[0]][move[1]] = if (step % 2 == 0) 'O' else 'X'
-                if (step >= 5) {
-
-                }
-            }
+            else -> isEnd = setMove(grid, move, ++step)
         }
-    } while (!end)
+    } while (!isEnd)
 
-    printGrid(grid)
 }
 
-fun countingTheGame(grid: MutableList<MutableList<Char>>, state: Char): Boolean {
-    var counter = 0
-    for (i in 0..grid.lastIndex) {
-        for (j in 0..grid[0].lastIndex) {
-            if (grid[i][j] == state) counter++
-        }
-        if (counter == grid.size) {
-            break
-        } else counter = 0
+fun setMove(grid: MutableList<MutableList<Char>>, move: MutableList<Int>, step: Int): Boolean {
+    val state = if (step % 2 == 0) 'O' else 'X'
+    grid[move[0]][move[1]] = state
 
+    var win = false
+    var draw = false
+    // check row
+    for (i in 0..grid.lastIndex) {
+        if (grid[move[0]][i] != state) break
+        if (i == grid.lastIndex) win = true
     }
-    return game
+    // check column
+    if (!win) {
+        for (i in 0..grid.lastIndex) {
+            if (grid[i][move[1]] != state) break
+            if (i == grid.lastIndex) win = true
+        }
+    }
+    // check diag 1
+    if (!win) {
+        if (move[0] == move[1]) {
+            for (i in 0..grid.lastIndex) {
+                if (grid[i][i] != state) break
+                if (i == grid.lastIndex) win = true
+            }
+        }
+    }
+    // check diag 2
+    if (!win) {
+        if (move[0] + move[1] == grid.lastIndex) {
+            for (i in 0..grid.lastIndex) {
+                if (grid[i][grid.lastIndex - i] != state) break
+                if (i == grid.lastIndex) win = true
+            }
+        }
+    }
+    // check draw
+    if (!win && step == grid.size * grid.size) draw = true
+
+    printGrid(grid)
+
+    if (win) println("$state wins")
+    if (draw) println("Draw")
+
+    return win || draw
 }
 
 fun printGrid(grid: MutableList<MutableList<Char>>) {
