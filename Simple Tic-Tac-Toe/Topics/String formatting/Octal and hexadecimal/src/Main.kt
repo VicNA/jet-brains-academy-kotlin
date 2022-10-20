@@ -1,3 +1,3 @@
 fun printOctAndHex(value: Int) {
-    println("%#X".format(value))
+    println(String.format("%#o %#x", value, value))
 }

@@ -1,5 +1,10 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+- text: Negative numbers are represented without the minus sign.
+- text: It can be applied to Short and BigInteger numbers.
+- text: It justifies the number to the left.
+- text: This format string is invalid.
 files:
 - name: src/Main.kt
   visible: true

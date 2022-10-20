@@ -1,5 +1,10 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+- text: '%o'
+- text: '%F'
+- text: '%f'
+- text: '%G'
 files:
 - name: src/Main.kt
   visible: true
