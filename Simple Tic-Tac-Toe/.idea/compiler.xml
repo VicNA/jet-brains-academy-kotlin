@@ -27,6 +27,8 @@
       <module name="Simple_Tic-Tac-Toe.Topics-Processing_strings-Parse_url.main" target="11" />
       <module name="Simple_Tic-Tac-Toe.Topics-Processing_strings-The_percentage_of_G_and_C_characters.main" target="11" />
       <module name="Simple_Tic-Tac-Toe.Topics-Processing_strings-Theory.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-String_formatting-Dynamic_Double_formatting.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-String_formatting-Theory.main" target="11" />
       <module name="Simple_Tic-Tac-Toe.Topics-What_is_an_exception-Cause_an_exception.main" target="11" />
       <module name="Simple_Tic-Tac-Toe.Topics-What_is_an_exception-Theory.main" target="11" />
       <module name="Simple_Tic-Tac-Toe.Topics-What_is_an_exception-What_do_you_know_about_a_stack_trace.main" target="11" />
