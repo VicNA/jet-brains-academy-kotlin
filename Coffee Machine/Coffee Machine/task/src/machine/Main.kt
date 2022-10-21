@@ -1,11 +1,15 @@
 package machine
 
 fun main() {
-    println("Starting to make a coffee")
-    println("Grinding coffee beans")
-    println("Boiling water")
-    println("Mixing boiled water with crushed coffee beans")
-    println("Pouring coffee into the cup")
-    println("Pouring some milk into the cup")
-    println("Coffee is ready!")
+    println("Write how many cups of coffee you will need:")
+    val water = 200
+    val milk = 50
+    val coffe = 15
+
+    val cups = readln().toInt()
+
+    println("For $cups cups of coffee you will need:")
+    println("${cups * water} ml of water")
+    println("${cups * milk} ml of milk")
+    println("${cups * coffe} g of coffee beans")
 }
