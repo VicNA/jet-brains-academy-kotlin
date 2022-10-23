@@ -15,7 +15,7 @@ fun main() {
     when (readln()) {
         "buy" -> buy(coffeeMachine)
         "fill" -> fill(coffeeMachine)
-        "take" -> TODO()
+        "take" -> take(coffeeMachine)
     }
 
     printCoffeeMachine(coffeeMachine, 1)
@@ -34,10 +34,25 @@ fun printCoffeeMachine(cm: MutableMap<String, Int>, newLine: Int = 0) {
 fun buy(cm: MutableMap<String, Int>) {
     println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:")
     when (readln()) {
-        "1" -> TODO()
-        "2" -> TODO()
-        "3" -> TODO()
+        "1" -> {
+            cm["water"] = cm.getValue("water") - 250
+            cm["coffee"] = cm.getValue("coffee") - 16
+            cm["money"] = cm.getValue("money") + 4
+        }
+        "2" -> {
+            cm["water"] = cm.getValue("water") - 350
+            cm["milk"] = cm.getValue("milk") - 75
+            cm["coffee"] = cm.getValue("coffee") - 20
+            cm["money"] = cm.getValue("money") + 7
+        }
+        "3" -> {
+            cm["water"] = cm.getValue("water") - 200
+            cm["milk"] = cm.getValue("milk") - 100
+            cm["coffee"] = cm.getValue("coffee") - 12
+            cm["money"] = cm.getValue("money") + 6
+        }
     }
+    cm["cups"] = cm.getValue("cups") - 1
 }
 
 fun fill(cm: MutableMap<String, Int>) {
@@ -55,5 +70,6 @@ fun fill(cm: MutableMap<String, Int>) {
 }
 
 fun take(cm: MutableMap<String, Int>) {
-
+    println("I gave you $${cm["money"]}")
+    cm["money"] = 0
 }
