@@ -6,3 +6,6 @@ content:
 - If expression
 - Floating-point types
 - Getting substrings
+- String formatting
+- Jumps and returns
+- Ranges

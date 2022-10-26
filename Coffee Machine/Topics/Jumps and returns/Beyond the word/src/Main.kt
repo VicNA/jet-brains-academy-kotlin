@@ -1,0 +1,1 @@
+fun main() = readln().run { ('a'..'z').filter { it !in this }.forEach(::print) }
