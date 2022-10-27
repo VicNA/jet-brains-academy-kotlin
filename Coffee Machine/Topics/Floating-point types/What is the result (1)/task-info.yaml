@@ -1,10 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-- text: 0.0
-- text: 1.5
-- text: 1.25
-- text: 1.0
 files:
 - name: src/Main.kt
   visible: true
