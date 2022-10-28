@@ -1,5 +1,5 @@
 type: edu
-custom_name: Buy, fill, take!
+custom_name: "Buy, fill, take!"
 files:
 - name: src/machine/Main.kt
   visible: true
@@ -363,5 +363,5 @@ feedback_link: https://hyperskill.org/learn/step/5662#comment
 status: Solved
 feedback:
   message: Congratulations!
-  time: Mon, 24 Oct 2022 18:13:13 UTC
+  time: "Mon, 24 Oct 2022 18:13:13 UTC"
 record: 4
