@@ -1,10 +1,14 @@
 package machine
 
-var water = 400
-var milk = 540
-var coffee = 120
-var cups = 9
-var money = 550
+class CoffeeMachine {
+    var water = 400
+    var milk = 540
+    var coffee = 120
+    var cups = 9
+    var money = 550
+    var action = 1
+}
+
 
 fun main() {
     while (true) {
@@ -45,6 +49,7 @@ fun buy() {
                 money += 4
             }
         }
+
         "2" -> {
             if (water < 350 || milk < 75 || coffee < 20 || cups < 1) {
                 print("Sorry, not enough ")
@@ -61,6 +66,7 @@ fun buy() {
                 money += 7
             }
         }
+
         "3" -> {
             if (water < 200 || milk < 100 || coffee < 12 || cups < 1) {
                 print("Sorry, not enough ")
@@ -77,6 +83,7 @@ fun buy() {
                 money += 6
             }
         }
+
         "back" -> return
     }
 
