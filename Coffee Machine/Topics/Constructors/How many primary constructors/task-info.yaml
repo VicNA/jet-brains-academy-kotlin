@@ -1,10 +1,9 @@
 type: choice
-is_multiple_choice: true
+is_multiple_choice: false
 options:
-- text: <code>val x = magic + magic + 1</code>
-- text: <code>val x = (magic + giant) % 10</code>
-- text: <code>val x = giant - magic</code>
-- text: <code>val x = 100L - magic</code>
+- text: Exactly one
+- text: One or more
+- text: Either one or none
 files:
 - name: src/Main.kt
   visible: true
@@ -15,7 +14,7 @@ files:
       // put your code here
     }
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/5976#comment
+feedback_link: https://hyperskill.org/learn/step/10876#comment
 status: Solved
 record: -1
 local_check: false
