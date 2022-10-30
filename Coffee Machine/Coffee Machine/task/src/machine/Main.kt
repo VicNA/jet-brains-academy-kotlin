@@ -16,7 +16,7 @@ class CoffeeMachine {
         MainMenu, CoffeeMenu
     }
 
-    enum class CoffeeDrink(val money: Int, val water: Int, val coffee: Int, val milk: Int) {
+    enum class Drink(val money: Int, val water: Int, val coffee: Int, val milk: Int) {
         Espresso(4, 250, 16, 0),
         Latte(7, 350, 20, 75),
         Cappuccino(6, 200, 12, 100)
@@ -30,7 +30,8 @@ class CoffeeMachine {
                     state = State.CoffeeMenu
                     println("\nWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:")
                 }
-                "fill" -> fill()
+
+                "fill" -> fill() //TODO
                 "take" -> take()
                 "remaining" -> remaining()
                 "exit" -> exit = true
@@ -38,34 +39,23 @@ class CoffeeMachine {
         }
         if (state == State.CoffeeMenu) {
             when (input) {
-                "1" -> {
-                    if (checkMakeCoffee(CoffeeDrink.Espresso)) {
-                        println("I have enough resources, making you a coffee!")
-                        makeCoffee(CoffeeDrink.Espresso)
-                    }
-                    state = State.MainMenu
-                }
-
-                "2" -> {
-                    if (checkMakeCoffee(CoffeeDrink.Latte)) {
-                        println("I have enough resources, making you a coffee!")
-                        makeCoffee(CoffeeDrink.Latte)
-                    }
-                    state = State.MainMenu
-                }
-
-                "3" -> {
-                    if (checkMakeCoffee(CoffeeDrink.Cappuccino)) {
-                        println("I have enough resources, making you a coffee!")
-                        makeCoffee(CoffeeDrink.Cappuccino)
-                    }
-                    state = State.MainMenu
-                }
-
+                "1" -> executeCoffeeMenu(Drink.Espresso)
+                "2" -> executeCoffeeMenu(Drink.Latte)
+                "3" -> executeCoffeeMenu(Drink.Cappuccino)
                 "back" -> state = State.MainMenu
             }
         }
         return exit
+    }
+
+    private fun executeCoffeeMenu(drink: Drink) {
+        if (checkResource(drink)) {
+            println("I have enough resources, making you a coffee!")
+            makeCoffee(drink)
+        } else {
+            printNotResource(drink)
+        }
+        state = State.MainMenu
     }
 
     fun remaining() {
@@ -75,6 +65,7 @@ class CoffeeMachine {
         println("$coffee g of coffee beans")
         println("$cups disposable cups")
         println("$$money of money")
+        state = State.MainMenu
     }
 
     fun fill() {
@@ -91,9 +82,13 @@ class CoffeeMachine {
         cups += readln().toInt()
     }
 
-    fun take() = println("\nI gave you $$money").let { money = 0 }
+    fun take() {
+        println("\nI gave you $$money")
+        money = 0
+        state = State.MainMenu
+    }
 
-    private fun makeCoffee(drink: CoffeeDrink) {
+    private fun makeCoffee(drink: Drink) {
         this.money += drink.money
         this.water -= drink.water
         this.coffee -= drink.coffee
@@ -101,17 +96,15 @@ class CoffeeMachine {
         cups--
     }
 
-    private fun checkMakeCoffee(drink: CoffeeDrink): Boolean {
-        var check = true
-        if (water < drink.water || coffee < drink.coffee || milk < drink.milk || cups < 1) {
-            print("Sorry, not enough ")
-            if (water < drink.water) println("water!")
-            if (milk < drink.milk) println("milk!")
-            if (coffee < drink.coffee) println("coffee!")
-            if (cups < 1) println("cups!")
-            check = false
-        }
-        return check
+    private fun checkResource(drink: Drink) =
+        water < drink.water || coffee < drink.coffee || milk < drink.milk || cups < 1
+
+    private fun printNotResource(drink: Drink) {
+        print("Sorry, not enough ")
+        if (water < drink.water) println("water!")
+        if (milk < drink.milk) println("milk!")
+        if (coffee < drink.coffee) println("coffee!")
+        if (cups < 1) println("cups!")
     }
 }
 
