@@ -6,14 +6,17 @@ class CoffeeMachine {
     var coffee = 120
     var cups = 9
     var money = 550
-    var state = State.MainMenu
+
+    var state: State
+    var step = 0
 
     init {
-        println("\nWrite action (buy, fill, take, remaining, exit):")
+        state = State.MainMenu
+        printMainMenu()
     }
 
     enum class State {
-        MainMenu, CoffeeMenu
+        MainMenu, CoffeeMenu, ServiceMenu
     }
 
     enum class Drink(val money: Int, val water: Int, val coffee: Int, val milk: Int) {
@@ -24,27 +27,44 @@ class CoffeeMachine {
 
     fun action(input: String): Boolean {
         var exit = false
+
         if (state == State.MainMenu) {
             when (input) {
-                "buy" -> {
-                    state = State.CoffeeMenu
-                    println("\nWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:")
-                }
-
-                "fill" -> fill() //TODO
+                "buy" -> state = State.CoffeeMenu
+                "fill" -> state = State.ServiceMenu
                 "take" -> take()
                 "remaining" -> remaining()
                 "exit" -> exit = true
             }
+            if (!exit && state == State.MainMenu) printMainMenu()
         }
         if (state == State.CoffeeMenu) {
-            when (input) {
-                "1" -> executeCoffeeMenu(Drink.Espresso)
-                "2" -> executeCoffeeMenu(Drink.Latte)
-                "3" -> executeCoffeeMenu(Drink.Cappuccino)
-                "back" -> state = State.MainMenu
+            if (step == 0) {
+                println("\nWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:")
+                step++
+            } else {
+                when (input) {
+                    "1" -> executeCoffeeMenu(Drink.Espresso)
+                    "2" -> executeCoffeeMenu(Drink.Latte)
+                    "3" -> executeCoffeeMenu(Drink.Cappuccino)
+                    "back" -> state = State.MainMenu
+                }
+                if (state == State.MainMenu) {
+                    printMainMenu()
+                    step = 0
+                }
             }
         }
+        if (state == State.ServiceMenu) {
+            if (step == 0) {
+                println("\nWrite how many ml of water you want to add:")
+                step++
+            } else {
+                fill(input)
+                if (state == State.MainMenu) printMainMenu()
+            }
+        }
+
         return exit
     }
 
@@ -65,27 +85,36 @@ class CoffeeMachine {
         println("$coffee g of coffee beans")
         println("$cups disposable cups")
         println("$$money of money")
-        state = State.MainMenu
     }
 
-    fun fill() {
-        println("\nWrite how many ml of water you want to add:")
-        water += readln().toInt()
+    fun fill(input: String) {
+        when (step++) {
+            1 -> {
+                water += input.toInt()
+                println("Write how many ml of milk you want to add:")
+            }
 
-        println("Write how many ml of milk you want to add:")
-        milk += readln().toInt()
+            2 -> {
+                milk += input.toInt()
+                println("Write how many grams of coffee beans you want to add:")
+            }
 
-        println("Write how many grams of coffee beans you want to add:")
-        coffee += readln().toInt()
+            3 -> {
+                coffee += input.toInt()
+                println("Write how many disposable cups you want to add:")
+            }
 
-        println("Write how many disposable cups you want to add:")
-        cups += readln().toInt()
+            4 -> {
+                cups += input.toInt()
+                state = State.MainMenu
+                step = 0
+            }
+        }
     }
 
     fun take() {
         println("\nI gave you $$money")
         money = 0
-        state = State.MainMenu
     }
 
     private fun makeCoffee(drink: Drink) {
@@ -97,7 +126,7 @@ class CoffeeMachine {
     }
 
     private fun checkResource(drink: Drink) =
-        water < drink.water || coffee < drink.coffee || milk < drink.milk || cups < 1
+        water > drink.water && coffee > drink.coffee && milk > drink.milk && cups > 0
 
     private fun printNotResource(drink: Drink) {
         print("Sorry, not enough ")
@@ -105,6 +134,10 @@ class CoffeeMachine {
         if (milk < drink.milk) println("milk!")
         if (coffee < drink.coffee) println("coffee!")
         if (cups < 1) println("cups!")
+    }
+
+    private fun printMainMenu() {
+        println("\nWrite action (buy, fill, take, remaining, exit):")
     }
 }
 
