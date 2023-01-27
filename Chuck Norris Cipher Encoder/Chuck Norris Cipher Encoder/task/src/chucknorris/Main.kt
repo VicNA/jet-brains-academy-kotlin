@@ -1,5 +1,3 @@
 package chucknorris
 
-fun main() {
-    readln().forEach { print("$it ") }
-}
+fun main() = println("Input string:").let { readln().forEach { print("$it ") } }
