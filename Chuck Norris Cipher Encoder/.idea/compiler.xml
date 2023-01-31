@@ -2,6 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="17">
+      <module name="Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task-build-classes-java.main" target="11" />
+      <module name="Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task-build-classes-kotlin.main" target="11" />
+      <module name="Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task-build-generated-sources-headers-java.main" target="11" />
       <module name="Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task-build-reports-tests.main" target="11" />
       <module name="Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task-build-test-results.main" target="11" />
       <module name="Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task-build-tmp.main" target="11" />
@@ -11,6 +15,14 @@
       <module name="Chuck_Norris_Cipher_Encoder.Topics-Declaring_functions-Right_equation.main" target="11" />
       <module name="Chuck_Norris_Cipher_Encoder.Topics-Declaring_functions-Theory.main" target="11" />
       <module name="Chuck_Norris_Cipher_Encoder.Topics-Declaring_functions-What_should_be_specified.main" target="11" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics__1_-For_loop_and_ranges-Check_the_order.main" target="11" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics__1_-For_loop_and_ranges-Count_the_numbers.main" target="11" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics__1_-For_loop_and_ranges-Fizz_Buzz.main" target="11" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics__1_-For_loop_and_ranges-For-loop_definitions.main" target="11" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics__1_-For_loop_and_ranges-The_longest_sequence.main" target="11" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics__1_-For_loop_and_ranges-The_roots_of_equation.main" target="11" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics__1_-For_loop_and_ranges-The_sum_of_integers_from_a_to_b.main" target="11" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics__1_-For_loop_and_ranges-Theory.main" target="11" />
       <module name="Chuck_Norris_Cipher_Encoder.util.main" target="11" />
     </bytecodeTargetLevel>
   </component>
