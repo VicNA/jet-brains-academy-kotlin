@@ -31,6 +31,8 @@
       <module name="Chuck_Norris_Cipher_Encoder.Topics__1_-For_loop_and_ranges-The_roots_of_equation.main" target="11" />
       <module name="Chuck_Norris_Cipher_Encoder.Topics__1_-For_loop_and_ranges-The_sum_of_integers_from_a_to_b.main" target="11" />
       <module name="Chuck_Norris_Cipher_Encoder.Topics__1_-For_loop_and_ranges-Theory.main" target="11" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics__1_-Multi-dimensional_array-Corners.main" target="11" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics__1_-Multi-dimensional_array-Theory.main" target="11" />
       <module name="Chuck_Norris_Cipher_Encoder.util.main" target="11" />
     </bytecodeTargetLevel>
   </component>
