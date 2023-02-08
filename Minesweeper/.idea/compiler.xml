@@ -2,7 +2,25 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="17">
+      <module name="Minesweeper.Minesweeper-task-build-reports-tests.main" target="11" />
+      <module name="Minesweeper.Minesweeper-task-build-test-results.main" target="11" />
+      <module name="Minesweeper.Minesweeper-task-build-tmp.main" target="11" />
       <module name="Minesweeper.Minesweeper-task.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_ranges-Check_the_order.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_ranges-Count_the_numbers.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_ranges-Fizz_Buzz.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_ranges-For-loop_definitions.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_ranges-The_longest_sequence.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_ranges-The_maximum_pairwise_product.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_ranges-The_minimum_value_of_N_numbers.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_ranges-The_product_of_numbers_from_a_to_b.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_ranges-The_roots_of_equation.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_ranges-The_sum_of_integers_from_a_to_b.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_ranges-Theory.main" target="11" />
+      <module name="Minesweeper.Topics-Random-Random_generator_seed.main" target="11" />
+      <module name="Minesweeper.Topics-Random-SumIterator.main" target="11" />
+      <module name="Minesweeper.Topics-Random-The_Rock-Paper-Scissors_game.main" target="11" />
+      <module name="Minesweeper.Topics-Random-Theory.main" target="11" />
       <module name="Minesweeper.util.main" target="11" />
     </bytecodeTargetLevel>
   </component>
