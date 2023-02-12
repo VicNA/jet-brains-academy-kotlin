@@ -17,6 +17,13 @@
       <module name="Minesweeper.Topics-For_loop_and_ranges-The_roots_of_equation.main" target="11" />
       <module name="Minesweeper.Topics-For_loop_and_ranges-The_sum_of_integers_from_a_to_b.main" target="11" />
       <module name="Minesweeper.Topics-For_loop_and_ranges-Theory.main" target="11" />
+      <module name="Minesweeper.Topics-Processing_strings-Determine_the_output.main" target="11" />
+      <module name="Minesweeper.Topics-Processing_strings-Double_characters.main" target="11" />
+      <module name="Minesweeper.Topics-Processing_strings-Number_of_occurrences.main" target="11" />
+      <module name="Minesweeper.Topics-Processing_strings-Parse_url.main" target="11" />
+      <module name="Minesweeper.Topics-Processing_strings-The_longest_word.main" target="11" />
+      <module name="Minesweeper.Topics-Processing_strings-The_percentage_of_G_and_C_characters.main" target="11" />
+      <module name="Minesweeper.Topics-Processing_strings-Theory.main" target="11" />
       <module name="Minesweeper.Topics-Random-Random_generator_seed.main" target="11" />
       <module name="Minesweeper.Topics-Random-SumIterator.main" target="11" />
       <module name="Minesweeper.Topics-Random-The_Rock-Paper-Scissors_game.main" target="11" />

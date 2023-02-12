@@ -1,11 +1,11 @@
 type: choice
-is_multiple_choice: true
+is_multiple_choice: false
 options:
-- text: "for (Double i in 1..10) {}"
-- text: "for (i in 1 to 10) {}"
-- text: "for (i in 1..10) {}"
-- text: "for (i in range(1, 5, 2)) {}"
-- text: "for (i in 0L until 40L step 2) {}"
+- text: "Kot ,olleH"
+- text: "iltoK ,olleH"
+- text: "niltoK ,olle"
+- text: "Hello, Kotlin"
+- text: "niltoK ,olleH"
 files:
 - name: src/Main.kt
   visible: true
@@ -16,7 +16,7 @@ files:
       // put your code here
     }
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/5969#comment
+feedback_link: https://hyperskill.org/learn/step/9029#comment
 status: Solved
 record: -1
 local_check: false
