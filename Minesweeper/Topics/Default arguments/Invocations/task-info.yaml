@@ -1,5 +1,10 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+- text: "repeat(\"S\", 5)"
+- text: repeat("S")
+- text: "repeat(5, true)"
+- text: repeat()
 files:
 - name: src/Main.kt
   visible: true
@@ -10,7 +15,7 @@ files:
       // put your code here
     }
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/11802#comment
+feedback_link: https://hyperskill.org/learn/step/4638#comment
 status: Solved
 record: -1
 local_check: false

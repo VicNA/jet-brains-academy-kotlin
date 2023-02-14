@@ -2,17 +2,45 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="17">
+      <module name="A simple calculator.Minesweeper.Topics-When_expression-A_simple_calculator.main" target="11" />
+      <module name="build.test-results.Minesweeper.Minesweeper-task-build-test-results.main" target="11" />
+      <module name="build.tmp.Minesweeper.Minesweeper-task-build-tmp.main" target="11" />
       <module name="Check the order.Minesweeper.Topics-For_loop_and_ranges-Check_the_order.main" target="11" />
       <module name="Count the numbers.Minesweeper.Topics-For_loop_and_ranges-Count_the_numbers.main" target="11" />
       <module name="Determine the output.Minesweeper.Topics-Processing_strings-Determine_the_output.main" target="11" />
+      <module name="Direction.Minesweeper.Topics-When_expression-Direction.main" target="11" />
       <module name="Double characters.Minesweeper.Topics-Processing_strings-Double_characters.main" target="11" />
       <module name="Fizz Buzz.Minesweeper.Topics-For_loop_and_ranges-Fizz_Buzz.main" target="11" />
+      <module name="Floor-space of the room.Minesweeper.Topics-When_expression-Floor-space_of_the_room.main" target="11" />
+      <module name="For loop and ranges.Check the order.Minesweeper.Topics-For_loop_and_ranges-Check_the_order.main" target="11" />
+      <module name="For loop and ranges.Count the numbers.Minesweeper.Topics-For_loop_and_ranges-Count_the_numbers.main" target="11" />
+      <module name="For loop and ranges.Fizz Buzz.Minesweeper.Topics-For_loop_and_ranges-Fizz_Buzz.main" target="11" />
+      <module name="For loop and ranges.For-loop definitions.Minesweeper.Topics-For_loop_and_ranges-For-loop_definitions.main" target="11" />
+      <module name="For loop and ranges.The longest sequence.Minesweeper.Topics-For_loop_and_ranges-The_longest_sequence.main" target="11" />
+      <module name="For loop and ranges.The maximum pairwise product.Minesweeper.Topics-For_loop_and_ranges-The_maximum_pairwise_product.main" target="11" />
+      <module name="For loop and ranges.The minimum value of N numbers.Minesweeper.Topics-For_loop_and_ranges-The_minimum_value_of_N_numbers.main" target="11" />
+      <module name="For loop and ranges.The product of numbers from a to b.Minesweeper.Topics-For_loop_and_ranges-The_product_of_numbers_from_a_to_b.main" target="11" />
+      <module name="For loop and ranges.The roots of equation.Minesweeper.Topics-For_loop_and_ranges-The_roots_of_equation.main" target="11" />
+      <module name="For loop and ranges.The sum of integers from a to b.Minesweeper.Topics-For_loop_and_ranges-The_sum_of_integers_from_a_to_b.main" target="11" />
+      <module name="For loop and ranges.Theory.Minesweeper.Topics-For_loop_and_ranges-Theory.main" target="11" />
       <module name="For-loop definitions.Minesweeper.Topics-For_loop_and_ranges-For-loop_definitions.main" target="11" />
       <module name="JetBrains-Academy.Minesweeper.util.main" target="11" />
+      <module name="Kotlin.JetBrains-Academy.Minesweeper.util.main" target="11" />
+      <module name="Minesweeper.Minesweeper-task-build-classes-java.main" target="11" />
+      <module name="Minesweeper.Minesweeper-task-build-classes-kotlin.main" target="11" />
+      <module name="Minesweeper.Minesweeper-task-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Minesweeper.Minesweeper-task-build-generated-sources-headers-java.main" target="11" />
       <module name="Minesweeper.Minesweeper-task-build-reports-tests.main" target="11" />
       <module name="Minesweeper.Minesweeper-task-build-test-results.main" target="11" />
       <module name="Minesweeper.Minesweeper-task-build-tmp.main" target="11" />
       <module name="Minesweeper.Minesweeper-task.main" target="11" />
+      <module name="Minesweeper.task.Minesweeper.Minesweeper-task.main" target="11" />
+      <module name="Minesweeper.Topics-Default_arguments-Concatenate_3_strings_with_separator.main" target="11" />
+      <module name="Minesweeper.Topics-Default_arguments-Declarations.main" target="11" />
+      <module name="Minesweeper.Topics-Default_arguments-Invocations.main" target="11" />
+      <module name="Minesweeper.Topics-Default_arguments-Polynomial.main" target="11" />
+      <module name="Minesweeper.Topics-Default_arguments-Print_Username.main" target="11" />
+      <module name="Minesweeper.Topics-Default_arguments-Theory.main" target="11" />
       <module name="Minesweeper.Topics-For_loop_and_ranges-Check_the_order.main" target="11" />
       <module name="Minesweeper.Topics-For_loop_and_ranges-Count_the_numbers.main" target="11" />
       <module name="Minesweeper.Topics-For_loop_and_ranges-Fizz_Buzz.main" target="11" />
@@ -47,15 +75,32 @@
       <module name="Minesweeper.util.main" target="11" />
       <module name="Number of occurrences.Minesweeper.Topics-Processing_strings-Number_of_occurrences.main" target="11" />
       <module name="Parse url.Minesweeper.Topics-Processing_strings-Parse_url.main" target="11" />
+      <module name="Processing strings.Determine the output.Minesweeper.Topics-Processing_strings-Determine_the_output.main" target="11" />
+      <module name="Processing strings.Double characters.Minesweeper.Topics-Processing_strings-Double_characters.main" target="11" />
+      <module name="Processing strings.Number of occurrences.Minesweeper.Topics-Processing_strings-Number_of_occurrences.main" target="11" />
+      <module name="Processing strings.Parse url.Minesweeper.Topics-Processing_strings-Parse_url.main" target="11" />
+      <module name="Processing strings.The longest word.Minesweeper.Topics-Processing_strings-The_longest_word.main" target="11" />
+      <module name="Processing strings.The percentage of G and C characters.Minesweeper.Topics-Processing_strings-The_percentage_of_G_and_C_characters.main" target="11" />
+      <module name="Processing strings.Theory.Minesweeper.Topics-Processing_strings-Theory.main" target="11" />
       <module name="Random generator seed.Minesweeper.Topics-Random-Random_generator_seed.main" target="11" />
+      <module name="Random.Random generator seed.Minesweeper.Topics-Random-Random_generator_seed.main" target="11" />
+      <module name="Random.SumIterator.Minesweeper.Topics-Random-SumIterator.main" target="11" />
+      <module name="Random.The Rock-Paper-Scissors game.Minesweeper.Topics-Random-The_Rock-Paper-Scissors_game.main" target="11" />
+      <module name="Random.Theory.Minesweeper.Topics-Random-Theory.main" target="11" />
+      <module name="reports.tests.Minesweeper.Minesweeper-task-build-reports-tests.main" target="11" />
+      <module name="Select correct branches.Minesweeper.Topics-When_expression-Select_correct_branches.main" target="11" />
+      <module name="Statements.Minesweeper.Topics-When_expression-Statements.main" target="11" />
+      <module name="String processor.Minesweeper.Topics-When_expression-String_processor.main" target="11" />
       <module name="SumIterator.Minesweeper.Topics-Random-SumIterator.main" target="11" />
       <module name="task.Minesweeper.Minesweeper-task.main" target="11" />
       <module name="test-results.Minesweeper.Minesweeper-task-build-test-results.main" target="11" />
       <module name="tests.Minesweeper.Minesweeper-task-build-reports-tests.main" target="11" />
+      <module name="The army of units.Minesweeper.Topics-When_expression-The_army_of_units.main" target="11" />
       <module name="The longest sequence.Minesweeper.Topics-For_loop_and_ranges-The_longest_sequence.main" target="11" />
       <module name="The longest word.Minesweeper.Topics-Processing_strings-The_longest_word.main" target="11" />
       <module name="The maximum pairwise product.Minesweeper.Topics-For_loop_and_ranges-The_maximum_pairwise_product.main" target="11" />
       <module name="The minimum value of N numbers.Minesweeper.Topics-For_loop_and_ranges-The_minimum_value_of_N_numbers.main" target="11" />
+      <module name="The number of digits.Minesweeper.Topics-When_expression-The_number_of_digits.main" target="11" />
       <module name="The percentage of G and C characters.Minesweeper.Topics-Processing_strings-The_percentage_of_G_and_C_characters.main" target="11" />
       <module name="The product of numbers from a to b.Minesweeper.Topics-For_loop_and_ranges-The_product_of_numbers_from_a_to_b.main" target="11" />
       <module name="The Rock-Paper-Scissors game.Minesweeper.Topics-Random-The_Rock-Paper-Scissors_game.main" target="11" />
@@ -64,6 +109,7 @@
       <module name="Theory.Minesweeper.Topics-For_loop_and_ranges-Theory.main" target="11" />
       <module name="Theory.Minesweeper.Topics-Processing_strings-Theory.main" target="11" />
       <module name="Theory.Minesweeper.Topics-Random-Theory.main" target="11" />
+      <module name="Theory.Minesweeper.Topics-When_expression-Theory.main" target="11" />
       <module name="tmp.Minesweeper.Minesweeper-task-build-tmp.main" target="11" />
     </bytecodeTargetLevel>
   </component>
