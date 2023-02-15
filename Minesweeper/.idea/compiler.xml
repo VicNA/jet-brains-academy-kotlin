@@ -63,6 +63,11 @@
       <module name="Minesweeper.Topics-Random-SumIterator.main" target="11" />
       <module name="Minesweeper.Topics-Random-The_Rock-Paper-Scissors_game.main" target="11" />
       <module name="Minesweeper.Topics-Random-Theory.main" target="11" />
+      <module name="Minesweeper.Topics-Repeating_blocks-Counting_positive_numbers.main" target="11" />
+      <module name="Minesweeper.Topics-Repeating_blocks-Grades.main" target="11" />
+      <module name="Minesweeper.Topics-Repeating_blocks-Maximum_element_divisible_by_4.main" target="11" />
+      <module name="Minesweeper.Topics-Repeating_blocks-Size_of_parts.main" target="11" />
+      <module name="Minesweeper.Topics-Repeating_blocks-Theory.main" target="11" />
       <module name="Minesweeper.Topics-When_expression-A_simple_calculator.main" target="11" />
       <module name="Minesweeper.Topics-When_expression-Direction.main" target="11" />
       <module name="Minesweeper.Topics-When_expression-Floor-space_of_the_room.main" target="11" />
