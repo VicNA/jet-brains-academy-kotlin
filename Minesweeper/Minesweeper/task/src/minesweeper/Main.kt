@@ -1,20 +1,40 @@
 package minesweeper
 
+import kotlin.random.Random
+
 fun main() {
+    val field = Array(9) {
+        Array(9) { '.' }
+    }
+
     print("How many mines do you want on the field? ")
     var mine = readln().toInt()
-    val field = ("X".repeat(mine) + "0".repeat(9 * 9 - mine)).toList().shuffled()
-        .chunked(9).map { it.toTypedArray() }
+    var (row, col, x, y) = arrayOf(0, 0, 0, 0)
+//    var x = 0
+//    var y = 0
 
-    for (i in 0..field.lastIndex) {
-        for (j in 0..field[i].lastIndex) {
-            if (field[i][j] == 'X') {
-                if (i + 1 < field.lastIndex &&  j + 1 < field[i].lastIndex && field[i+ 1][j + 1] != 'X') field[i + 1][j + 1]++
-                if (j + 1 < field[i].lastIndex && field[i][j + 1] != 'X') field[i][j + 1]++
-                if (i + 1 < field.lastIndex && field[i + 1][j] != 'X') field[i + 1][j]++
+    while (mine > 0) {
+        row = Random.nextInt(field.size)
+        col = Random.nextInt(field.size)
+
+        if (field[row][col] != 'X') {
+            field[row][col] = 'X'
+            mine--
+
+            for (i in -1..1) {
+                x = (row + i).let { if (it < 0 || it > field.lastIndex) row else it } // значения выпадающие за границу, пропускать
+                for (j in -1..1) {
+                    y = (col + j).let { if (it < 0 || it > field.lastIndex) col else it } // значения выпадающие за границу, пропускать
+
+                    if (field[x][y] != 'X' && field[x][y] != '.') {
+                        field[x][y]++
+                    } else if (field[x][y] == '.') {
+                        field[x][y] = '1'
+                    }
+                }
             }
         }
     }
 
-    field.forEach { println(it.joinToString("")) }
+    field.forEach { println(it.joinToString(" ")) }
 }

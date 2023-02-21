@@ -9,6 +9,8 @@
       <module name="Concatenate 3 strings with separator.Minesweeper.Topics-Default_arguments-Concatenate_3_strings_with_separator.main" target="11" />
       <module name="Count the numbers.Minesweeper.Topics-For_loop_and_ranges-Count_the_numbers.main" target="11" />
       <module name="Counting positive numbers.Minesweeper.Topics-Repeating_blocks-Counting_positive_numbers.main" target="11" />
+      <module name="Currencies.Minesweeper.Topics-Enum-Currencies.main" target="11" />
+      <module name="Danger level.Minesweeper.Topics-Enum-Danger_level.main" target="11" />
       <module name="Declarations.Minesweeper.Topics-Default_arguments-Declarations.main" target="11" />
       <module name="Determine the output.Minesweeper.Topics-Processing_strings-Determine_the_output.main" target="11" />
       <module name="Direction.Minesweeper.Topics-When_expression-Direction.main" target="11" />
@@ -101,6 +103,8 @@
       <module name="Processing strings.The longest word.Minesweeper.Topics-Processing_strings-The_longest_word.main" target="11" />
       <module name="Processing strings.The percentage of G and C characters.Minesweeper.Topics-Processing_strings-The_percentage_of_G_and_C_characters.main" target="11" />
       <module name="Processing strings.Theory.Minesweeper.Topics-Processing_strings-Theory.main" target="11" />
+      <module name="Properties of Enum.Minesweeper.Topics-Enum-Properties_of_Enum.main" target="11" />
+      <module name="Rainbow colors.Minesweeper.Topics-Enum-Rainbow_colors.main" target="11" />
       <module name="Random generator seed.Minesweeper.Topics-Random-Random_generator_seed.main" target="11" />
       <module name="Random.Random generator seed.Minesweeper.Topics-Random-Random_generator_seed.main" target="11" />
       <module name="Random.SumIterator.Minesweeper.Topics-Random-SumIterator.main" target="11" />
@@ -123,10 +127,12 @@
       <module name="The number of digits.Minesweeper.Topics-When_expression-The_number_of_digits.main" target="11" />
       <module name="The percentage of G and C characters.Minesweeper.Topics-Processing_strings-The_percentage_of_G_and_C_characters.main" target="11" />
       <module name="The product of numbers from a to b.Minesweeper.Topics-For_loop_and_ranges-The_product_of_numbers_from_a_to_b.main" target="11" />
+      <module name="The rainbow order.Minesweeper.Topics-Enum-The_rainbow_order.main" target="11" />
       <module name="The Rock-Paper-Scissors game.Minesweeper.Topics-Random-The_Rock-Paper-Scissors_game.main" target="11" />
       <module name="The roots of equation.Minesweeper.Topics-For_loop_and_ranges-The_roots_of_equation.main" target="11" />
       <module name="The sum of integers from a to b.Minesweeper.Topics-For_loop_and_ranges-The_sum_of_integers_from_a_to_b.main" target="11" />
       <module name="Theory.Minesweeper.Topics-Default_arguments-Theory.main" target="11" />
+      <module name="Theory.Minesweeper.Topics-Enum-Theory.main" target="11" />
       <module name="Theory.Minesweeper.Topics-For_loop_and_ranges-Theory.main" target="11" />
       <module name="Theory.Minesweeper.Topics-Processing_strings-Theory.main" target="11" />
       <module name="Theory.Minesweeper.Topics-Random-Theory.main" target="11" />
