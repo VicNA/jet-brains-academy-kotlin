@@ -33,6 +33,7 @@
       <module name="Invocations.Minesweeper.Topics-Default_arguments-Invocations.main" target="11" />
       <module name="JetBrains-Academy.Minesweeper.util.main" target="11" />
       <module name="Kotlin.JetBrains-Academy.Minesweeper.util.main" target="11" />
+      <module name="kotlin.Minesweeper.Minesweeper-task-build-classes-kotlin.main" target="11" />
       <module name="Maximum element divisible by 4.Minesweeper.Topics-Repeating_blocks-Maximum_element_divisible_by_4.main" target="11" />
       <module name="Minesweeper.Minesweeper-task-build-classes-java.main" target="11" />
       <module name="Minesweeper.Minesweeper-task-build-classes-kotlin.main" target="11" />
