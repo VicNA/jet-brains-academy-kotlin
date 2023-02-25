@@ -3,52 +3,71 @@ package minesweeper
 import kotlin.random.Random
 
 fun main() {
-    val field = Array(9) { Array(9) { '.' } }
-    val mines = Array(9) { Array(9) { '.' } }
-
     print("How many mines do you want on the field? ")
-    var mine = readln().toInt()
-    var (row, col, x, y) = arrayOf(0, 0, 0, 0)
+    val minesweeper = Minesweeper(readln().toInt())
 
-//    while (mine > 0) {
-//        row = Random.nextInt(field.size)
-//        col = Random.nextInt(field.size)
-//
-//        if (field[row][col] != 'X') {
-//            field[row][col] = 'X'
-//            mine--
-//
-//            for (i in -1..1) {
-//                x = row + i
-//                if (x !in field.indices) continue
-//
-//                for (j in -1..1) {
-//                    y = col + j
-//                    if (y !in field.indices) continue
-//
-//                    if (field[x][y] != 'X' && field[x][y] != '.') {
-//                        field[x][y]++
-//                    } else if (field[x][y] == '.') {
-//                        field[x][y] = '1'
-//                    }
-//                }
-//            }
-//        }
-//    }
-//
-//    field.forEach { println(it.joinToString("")) }
+    var input: String
+    while (true) { // Тут условие о маркировке всех мин
+        minesweeper.print()
+        println("Set/delete mines marks (x and y coordinates): ")
+        input = readln()
+    }
 }
 
-fun printField(field: Array<Array<Char>>) {
-    val hline = "—"
-    val vline = "│"
+class Minesweeper(totalMines: Int) {
+    private val field = Array(9) { Array(9) { '.' } }
+    private val minefield = Minefield(totalMines)
 
-    println(" $vline${(1..field.size).joinToString("")}$vline")
-    println("$hline$vline${hline.repeat(field.size)}$vline")
+    inner class Minefield(val totalMines: Int) {
+        val mines = Array(9) { Array(9) { '.' } }
 
-    for (i in field.indices) {
-        println("${i + 1}$vline${field[i].joinToString("")}$vline")
+        init {
+            var mine = totalMines
+            var posX: Int
+            var posY: Int
+            var x: Int
+            var y: Int
+
+            while (mine > 0) {
+                posX = Random.nextInt(field.size)
+                posY = Random.nextInt(field.size)
+
+                if (mines[posX][posY] == 'X') continue
+
+                mines[posX][posY] = 'X'
+                mine--
+
+                for (i in -1..1) {
+                    x = posX + i
+
+                    if (x !in field.indices) continue
+
+                    for (j in -1..1) {
+                        y = posY + j
+
+                        if (y !in field.indices || mines[x][y] == 'X') continue
+
+                        if (field[x][y] == '.')
+                            field[x][y] = '1'
+                        else
+                            field[x][y]++
+                    }
+                }
+            }
+        }
     }
 
-    println("$hline$vline${hline.repeat(field.size)}$vline")
+    fun print() {
+        val hline = "—"
+        val vline = "│"
+
+        println(" $vline${(1..field.size).joinToString("")}$vline")
+        println("$hline$vline${hline.repeat(field.size)}$vline")
+
+        for (i in field.indices) {
+            println("${i + 1}$vline${field[i].joinToString("")}$vline")
+        }
+
+        println("$hline$vline${hline.repeat(field.size)}$vline")
+    }
 }
