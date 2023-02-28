@@ -92,6 +92,12 @@
       <module name="Minesweeper.Topics-When_expression-The_army_of_units.main" target="11" />
       <module name="Minesweeper.Topics-When_expression-The_number_of_digits.main" target="11" />
       <module name="Minesweeper.Topics-When_expression-Theory.main" target="11" />
+      <module name="Minesweeper.Topics-While_loops-Bank_interest_calculation.main" target="11" />
+      <module name="Minesweeper.Topics-While_loops-The_largest_element.main" target="11" />
+      <module name="Minesweeper.Topics-While_loops-The_sequence_1_2_2_3_3_3.main" target="11" />
+      <module name="Minesweeper.Topics-While_loops-The_sum_of_elements.main" target="11" />
+      <module name="Minesweeper.Topics-While_loops-Theory.main" target="11" />
+      <module name="Minesweeper.Topics-While_loops-What_does_the_code_print.main" target="11" />
       <module name="Minesweeper.util.main" target="11" />
       <module name="Number of occurrences.Minesweeper.Topics-Processing_strings-Number_of_occurrences.main" target="11" />
       <module name="Parse url.Minesweeper.Topics-Processing_strings-Parse_url.main" target="11" />
