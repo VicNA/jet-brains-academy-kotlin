@@ -20,7 +20,7 @@ fun main() {
 0.2533641025032649
 </code></pre><p>Notice that if you run it again, the number will be different, as you can see with the last two numbers. Even though we called the same <code class="language-kotlin">nextDouble()</code> function, the numbers are not the same. That is because the generator gives us a new number every time: they could repeat sometimes but the probability of that is very low.</p><h5 id="custom-ranges">Custom ranges</h5><p>As you can see, some numbers ended up pretty big, others small, and one is even negative. The default ranges for integers and floating-point numbers are different and chosen to cover the most common cases. But what if we needed only the integers between 0 and 100 or floats between 0.0 and 5.0? Then, we can specify them explicitly:</p><pre><code class="language-kotlin">// generates a non-negative integer value less than 100 
 Random.nextInt(100) 
-// generates an integer value between 1 (inclusive) and 100 (inclusive)
+// generates an integer value between 1 (inclusive) and 100 (exclusive)
 Random.nextInt(1, 100) 
 
 // generates a non-negative long value less than 100
