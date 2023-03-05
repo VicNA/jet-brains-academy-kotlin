@@ -1,0 +1,1 @@
+fun main() = println(readln().indexOf("the", 0, true))
