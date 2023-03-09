@@ -8,6 +8,7 @@
       <module name="build.tmp.Minesweeper.Minesweeper-task-build-tmp.main" target="11" />
       <module name="Check the order.Minesweeper.Topics-For_loop_and_ranges-Check_the_order.main" target="11" />
       <module name="Concatenate 3 strings with separator.Minesweeper.Topics-Default_arguments-Concatenate_3_strings_with_separator.main" target="11" />
+      <module name="Count occurrences.Minesweeper.Topics-For_loop_and_lists-Count_occurrences.main" target="11" />
       <module name="Count the numbers.Minesweeper.Topics-For_loop_and_ranges-Count_the_numbers.main" target="11" />
       <module name="Counting positive numbers.Minesweeper.Topics-Repeating_blocks-Counting_positive_numbers.main" target="11" />
       <module name="Currencies.Minesweeper.Topics-Enum-Currencies.main" target="11" />
@@ -137,6 +138,7 @@
       <module name="Minesweeper.Topics-While_loops-What_does_the_code_print.main" target="11" />
       <module name="Minesweeper.util.main" target="11" />
       <module name="Next even number.Minesweeper.Topics-Integers_in_action-Next_even_number.main" target="11" />
+      <module name="Number in a set.Minesweeper.Topics-For_loop_and_lists-Number_in_a_set.main" target="11" />
       <module name="Number of occurrences.Minesweeper.Topics-Processing_strings-Number_of_occurrences.main" target="11" />
       <module name="Parse url.Minesweeper.Topics-Processing_strings-Parse_url.main" target="11" />
       <module name="Polynomial.Minesweeper.Topics-Default_arguments-Polynomial.main" target="11" />
@@ -162,10 +164,12 @@
       <module name="Repeating blocks.Theory.Minesweeper.Topics-Repeating_blocks-Theory.main" target="11" />
       <module name="reports.tests.Minesweeper.Minesweeper-task-build-reports-tests.main" target="11" />
       <module name="Reversing a number.Minesweeper.Topics-Integers_in_action-Reversing_a_number.main" target="11" />
+      <module name="Right Rotation.Minesweeper.Topics-For_loop_and_lists-Right_Rotation.main" target="11" />
       <module name="Select correct branches.Minesweeper.Topics-When_expression-Select_correct_branches.main" target="11" />
       <module name="Size of parts.Minesweeper.Topics-Repeating_blocks-Size_of_parts.main" target="11" />
       <module name="Statements.Minesweeper.Topics-When_expression-Statements.main" target="11" />
       <module name="String processor.Minesweeper.Topics-When_expression-String_processor.main" target="11" />
+      <module name="Sum of numbers.Minesweeper.Topics-For_loop_and_lists-Sum_of_numbers.main" target="11" />
       <module name="SumIterator.Minesweeper.Topics-Random-SumIterator.main" target="11" />
       <module name="task.Minesweeper.Minesweeper-task.main" target="11" />
       <module name="test-results.Minesweeper.Minesweeper-task-build-test-results.main" target="11" />
@@ -188,6 +192,7 @@
       <module name="The sum of integers from a to b.Minesweeper.Topics-For_loop_and_ranges-The_sum_of_integers_from_a_to_b.main" target="11" />
       <module name="Theory.Minesweeper.Topics-Default_arguments-Theory.main" target="11" />
       <module name="Theory.Minesweeper.Topics-Enum-Theory.main" target="11" />
+      <module name="Theory.Minesweeper.Topics-For_loop_and_lists-Theory.main" target="11" />
       <module name="Theory.Minesweeper.Topics-For_loop_and_ranges-Theory.main" target="11" />
       <module name="Theory.Minesweeper.Topics-Integers_in_action-Theory.main" target="11" />
       <module name="Theory.Minesweeper.Topics-Processing_strings-Theory.main" target="11" />
@@ -227,6 +232,7 @@
       <module name="Topics.When expression.The army of units.Minesweeper.Topics-When_expression-The_army_of_units.main" target="11" />
       <module name="Topics.When expression.The number of digits.Minesweeper.Topics-When_expression-The_number_of_digits.main" target="11" />
       <module name="Topics.When expression.Theory.Minesweeper.Topics-When_expression-Theory.main" target="11" />
+      <module name="Triples.Minesweeper.Topics-For_loop_and_lists-Triples.main" target="11" />
       <module name="Unsigned integers.Minesweeper.Topics-Integers_in_action-Unsigned_integers.main" target="11" />
       <module name="What does the code print.Minesweeper.Topics-While_loops-What_does_the_code_print.main" target="11" />
       <module name="When expression.A simple calculator.Minesweeper.Topics-When_expression-A_simple_calculator.main" target="11" />

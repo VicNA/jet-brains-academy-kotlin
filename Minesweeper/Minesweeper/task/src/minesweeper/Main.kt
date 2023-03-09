@@ -7,14 +7,20 @@ fun main() {
     val minesweeper = Minesweeper(readln().toInt())
 
     var mark = true
-    while (true) { // Тут условие о маркировке всех мин
-        if (mark) minesweeper.print()
-        println("Set/delete mines marks (x and y coordinates): ")
+    while (!minesweeper.allMinesMarked()) {
+        if (mark)
+            minesweeper.print()
+        else
+            println("There is a number here!")
+
+        print("Set/delete mines marks (x and y coordinates): ")
         mark = readln().split(" ")
-            .map { it.toInt() }
+            .map { it.toInt() - 1 }
             .let { minesweeper.markMine(it[0], it[1]) }
     }
 
+    minesweeper.print()
+    println("Congratulations! You found all the mines!")
 }
 
 class Minesweeper(private val totalMines: Int) {
@@ -36,62 +42,61 @@ class Minesweeper(private val totalMines: Int) {
             posX = Random.nextInt(field.size)
             posY = Random.nextInt(field.size)
 
-            if (mines[posX][posY] == 'X') continue
+            if (mines[posY][posX] == 'X') continue
 
-            mines[posX][posY] = 'X'
-            field[posX][posY] = '.'
+            mines[posY][posX] = 'X'
+            field[posY][posX] = '.'
             mine--
 
             for (i in -1..1) {
-                x = posX + i
+                y = posY + i
 
-                if (x !in field.indices) continue
+                if (y !in field.indices) continue
 
                 for (j in -1..1) {
-                    y = posY + j
+                    x = posX + j
 
-                    if (y !in field.indices || mines[x][y] == 'X') continue
+                    if (x !in field.indices || mines[y][x] == 'X') continue
 
-                    if (field[x][y] == '.')
-                        field[x][y] = '1'
+                    if (field[y][x] == '.')
+                        field[y][x] = '1'
                     else
-                        field[x][y]++
+                        field[y][x]++
                 }
             }
         }
     }
 
     fun markMine(x: Int, y: Int): Boolean {
-        if (field[x][y] in '1'..'8')
+        if (field[y][x] in '1'..'8')
             return false
 
-        if (field[x][y] == '*') {
-            field[x][y] = '.'
+        if (field[y][x] == '*') {
+            if (mines[y][x] == 'X') markMines--
+            field[y][x] = '.'
             markCount--
         } else {
-            field[x][y] = '*'
+            if (mines[y][x] == 'X') markMines++
+            field[y][x] = '*'
             markCount++
-
-//            if (mines[x][y] == 'X') // определиться счетчиком, либо уменьшение мин либо флажки
-//                totalMines--
         }
 
         return true
     }
 
-    fun
+    fun allMinesMarked() = markMines == totalMines && markMines == markCount
 
     fun print() {
         val hline = "—"
         val vline = "│"
 
-        println("\n $vline${(1..field.size).joinToString(" ")}$vline")
-        println("$hline$vline${hline.repeat(field.size * 2 - 1)}$vline")
+        println("\n $vline${(1..field.size).joinToString("")}$vline")
+        println("$hline$vline${hline.repeat(field.size)}$vline")
 
         for (i in field.indices) {
-            println("${i + 1}$vline${field[i].joinToString(" ")}$vline")
+            println("${i + 1}$vline${field[i].joinToString("")}$vline")
         }
 
-        println("$hline$vline${hline.repeat(field.size * 2 - 1)}$vline")
+        println("$hline$vline${hline.repeat(field.size)}$vline")
     }
 }
