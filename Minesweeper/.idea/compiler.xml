@@ -77,6 +77,13 @@
       <module name="Minesweeper.Topics-Enum-Rainbow_colors.main" target="11" />
       <module name="Minesweeper.Topics-Enum-The_rainbow_order.main" target="11" />
       <module name="Minesweeper.Topics-Enum-Theory.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_arrays-Check_the_numbers.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_arrays-Counting.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_arrays-Individual_taxes.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_arrays-Is_it_here.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_arrays-Just_checking.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_arrays-Step.main" target="11" />
+      <module name="Minesweeper.Topics-For_loop_and_arrays-Theory.main" target="11" />
       <module name="Minesweeper.Topics-For_loop_and_lists-Count_occurrences.main" target="11" />
       <module name="Minesweeper.Topics-For_loop_and_lists-Number_in_a_set.main" target="11" />
       <module name="Minesweeper.Topics-For_loop_and_lists-Right_Rotation.main" target="11" />
