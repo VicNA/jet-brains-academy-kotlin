@@ -25,13 +25,17 @@ fun main() {
 
 class Minesweeper(private val totalMines: Int) {
 
+    private val HLINE = "—"
+    private val VLINE = "│"
+
     private var markMines = 0
     private var markCount = 0
 
-    private val field = Array(9) { Array(9) { '.' } }
-    private val mines = Array(9) { Array(9) { '.' } }
+    private val minefield = Array(9) { Array(9) { '.' } }
+    private val playfield = Array(9) { Array(9) { '.' } }
+    private var cell = minefield.size * minefield.size
 
-    init {
+    fun init() {
         var mine = totalMines
         var posX: Int
         var posY: Int
@@ -39,64 +43,60 @@ class Minesweeper(private val totalMines: Int) {
         var y: Int
 
         while (mine > 0) {
-            posX = Random.nextInt(field.size)
-            posY = Random.nextInt(field.size)
+            posX = Random.nextInt(minefield.size)
+            posY = Random.nextInt(minefield.size)
 
-            if (mines[posY][posX] == 'X') continue
+            if (minefield[posY][posX] == 'X') continue
 
-            mines[posY][posX] = 'X'
-            field[posY][posX] = '.'
+            minefield[posY][posX] = 'X'
             mine--
 
             for (i in -1..1) {
                 y = posY + i
 
-                if (y !in field.indices) continue
+                if (y !in minefield.indices) continue
 
                 for (j in -1..1) {
                     x = posX + j
 
-                    if (x !in field.indices || mines[y][x] == 'X') continue
+                    if (x !in minefield.indices || minefield[y][x] == 'X') continue
 
-                    if (field[y][x] == '.')
-                        field[y][x] = '1'
+                    if (minefield[y][x] == '.')
+                        minefield[y][x] = '1'
                     else
-                        field[y][x]++
+                        minefield[y][x]++
                 }
             }
         }
     }
 
     fun markMine(x: Int, y: Int): Boolean {
-        if (field[y][x] in '1'..'8')
+        if (minefield[y][x] in '1'..'8')
             return false
 
-        if (field[y][x] == '*') {
-            if (mines[y][x] == 'X') markMines--
-            field[y][x] = '.'
+        if (minefield[y][x] == '*') {
+            if (minefield[y][x] == 'X') markMines--
+            minefield[y][x] = '.'
             markCount--
         } else {
-            if (mines[y][x] == 'X') markMines++
-            field[y][x] = '*'
+            if (minefield[y][x] == 'X') markMines++
+            minefield[y][x] = '*'
             markCount++
         }
 
         return true
     }
 
-    fun allMinesMarked() = markMines == totalMines && markMines == markCount
+    fun allMinesMarked() = markMines == totalMines || cell == totalMines
 
     fun print() {
-        val hline = "—"
-        val vline = "│"
+        println("\n $VLINE${(1..playfield.size).joinToString("")}$VLINE")
+        println("$HLINE$VLINE${HLINE.repeat(playfield.size)}$VLINE")
 
-        println("\n $vline${(1..field.size).joinToString("")}$vline")
-        println("$hline$vline${hline.repeat(field.size)}$vline")
-
-        for (i in field.indices) {
-            println("${i + 1}$vline${field[i].joinToString("")}$vline")
+        for (i in playfield.indices) {
+            println("${i + 1}$VLINE${playfield[i].joinToString("")}$VLINE")
         }
 
-        println("$hline$vline${hline.repeat(field.size)}$vline")
+        println("$HLINE$VLINE${HLINE.repeat(playfield.size)}$VLINE")
     }
 }
